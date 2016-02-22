@@ -1,0 +1,39 @@
+body{
+	margin:0px;
+}
+
+.wrap{
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
+
+.main{
+	
+	width: 75%;
+	
+}
+.li-item{
+	margin-left: 1vw;
+}
+
+.main ul{
+	list-style: none;
+	text-align: left;
+	line-height: 2vh;
+	
+	font-size: 32px;
+
+}
+.skills{
+	margin-left: 60px;
+}
+
+
+
+
+
+.info{
+	background-color: lavender;
+	width: 25%;
+}
