@@ -39,20 +39,23 @@ iframe{
 	width: 35vw;
 	height: 25vh;
 }
+.main a{
+	color:white;
+}
 
 
 
 .info {
-    background-color: #2D3968 ;
+    background-color: white ;
     width: 25%;
-    color: white;
+    color: #2D3968;
     display: flex;
 
 }
 
-a {
+.info a{
     text-decoration: underline ;
-    color: white;
+    color: #2D3968;
 }
 
 .per-info {
