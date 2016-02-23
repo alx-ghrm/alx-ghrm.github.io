@@ -1,9 +1,12 @@
 body {
     margin: 0px;
+    font-size: 100%;
 
 }
 
 .wrap {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -25,9 +28,10 @@ p {
     
     list-style: none;
     text-align: left;
-    line-height: 15px;
-    font-size: 22px;
+    line-height: 1rem;
+    font-size: 1.3rem;
     width: 60vw;
+    font-family: "Verdana", sans-serif;
 }
 .main ul li{
 	margin-left:15px;
@@ -49,7 +53,10 @@ iframe{
     background-color: white ;
     width: 25%;
     color: #2D3968;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    font-family: "Verdana", sans-serif;
 
 }
 
@@ -59,10 +66,14 @@ iframe{
 }
 
 .per-info {
-	line-height: 40px;
+	margin-left: 15px;
+	padding-left: 0px;
+	line-height: 1.6rem;
 	list-style: none;
-	font-size: 22px;
+	font-size: 1.3rem;
 	font-weight: 500;
-	align-self: center;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
 
 }
