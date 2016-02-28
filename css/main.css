@@ -49,20 +49,23 @@ iframe{
     color: white;
 }
 .info {
-    background-color: white;
+    background-color: rgba(44, 56, 104, 0.9);
     width: 25%;
-    color: #2D3968;
+    color: white;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     font-family: "Verdana", sans-serif;
     align-self: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .info a {
     text-decoration: underline;
-    color: #2D3968;
+    color: white;
+    
 }
 .per-info {
     margin-left: 15px;
@@ -74,6 +77,16 @@ iframe{
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
+    order: 2;
+}
+img{
+    order: 1;
+    margin-top: 10vh;
+    border-radius: 50%;
+    align-self: center;
+    width: 300px;
+    height: 300px;
+
 }
 
 @media (max-width:800px){
