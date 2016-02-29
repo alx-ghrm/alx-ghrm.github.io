@@ -10,9 +10,15 @@ body {
     display: flex;
     width: 100vw;
     height: 100%;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
     
 }
 
@@ -24,7 +30,9 @@ body {
     background-size: cover;
     color: white;
     font-weight: 500;
-    align-self: auto;
+    -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+            align-self: auto;
 }
 p {
     margin-left: 165px;
@@ -56,9 +64,13 @@ iframe{
     display: -ms-flexbox;
     display: flex;
     font-family: "Verdana", sans-serif;
-    align-self: auto;
+    -webkit-align-self: auto;
+        -ms-flex-item-align: auto;
+            align-self: auto;
     display: flex;
-    flex-direction: column;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 
@@ -74,29 +86,41 @@ iframe{
     list-style: none;
     font-size: 2.8vh;
     font-weight: 500;
-    -webkit-align-self: center;
     -ms-flex-item-align: center;
-    align-self: center;
-    order: 2;
+    -webkit-align-self: center;
+            align-self: center;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
 }
 img{
-    order: 1;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
     margin-top: 10vh;
     border-radius: 50%;
-    align-self: center;
-    width: 300px;
-    height: 300px;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    width: 200px;
+    height: 200px;
 
 }
 
 @media (max-width:800px){
     .wrap{
-        flex-direction: column;
-        flex-flow: wrap;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-flex-flow: wrap;
+            -ms-flex-flow: wrap;
+                flex-flow: wrap;
 
     }
     .main{
-        order:1;
+        -webkit-order:1;
+            -ms-flex-order:1;
+                order:1;
         width: 100vw;
         
     }
@@ -109,7 +133,9 @@ img{
         height:250px;
     }
     .info{
-        order:2;
+        -webkit-order:2;
+            -ms-flex-order:2;
+                order:2;
         width: 100vw;
     }
     .per-info{
